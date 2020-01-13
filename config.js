@@ -4,16 +4,24 @@ const templateData =
     title: "CMintS Starter", // See "layouts/_head.ejs"
     navigation: [
       {
-        title: "CMintS",
-        link: "https://cmints.io/"
+        title: "<pm-toggle>",
+        link: "/pm-toggle"
       },
       {
-        title: "Tutorial",
-        link: "https://cmints.io/quick-start"
+        title: "<pm-table>",
+        link: "/pm-table"
       },
       {
-        title: "Github",
-        link: "https://github.com/cmints/single-lang-starter"
+        title: "<pm-dialog>",
+        link: "/pm-dialog"
+      },
+      {
+        title: "<pm-tab-panel>",
+        link: "/pm-tab-panel"
+      },
+      {
+        title: "<pm-button>",
+        link: "/pm-button"
       }
     ]
   }
