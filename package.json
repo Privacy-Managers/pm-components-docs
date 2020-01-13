@@ -8,7 +8,8 @@
     "build": "cmints --static",
     "deploy": "cmints --static --deploy",
     "start": "cmints --start",
-    "dev": "cmints --start --no-cache --dev"
+    "dev": "cmints --start --no-cache --dev",
+    "import": "pm-components --single-bundle --prod --output public/pm-components"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
     "url": "https://github.com/Manvel/cmints-single-lang-boilerplate/issues"
   },
   "dependencies": {
-    "cmints": "^0.8.1"
+    "cmints": "^0.8.1",
+    "privacy-manager-components": "^1.0.1"
   }
 }
