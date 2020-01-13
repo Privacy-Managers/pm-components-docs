@@ -2,8 +2,9 @@
 <html>
   <head>
     <% include _head %>
-    <%if (page.showSidebar) { %>
+    <%if (page.component) { %>
       <script src="/pm-components/js/pm-components.js" defer=""></script>
+      <script src="/js/<%= page.component %>.js" defer=""></script>
     <% } %>
   </head>
   <body>

@@ -1,5 +1,5 @@
 node_modules
-public/css/main.css
-public/js/main.js
+public/css
+public/js
 public/pm-components
 package-lock.json
