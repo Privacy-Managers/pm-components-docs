@@ -1,3 +1,5 @@
+
+@import "_mixins.less";
 @import "_variables.less";
 @import "_navigation.less";
 
@@ -9,6 +11,10 @@ body
 
 header
 {
+  a
+  {
+    .reverse-link();
+  }
   background-color: @primary;
   padding: 30px;
 }
