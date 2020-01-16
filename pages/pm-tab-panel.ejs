@@ -1,0 +1,29 @@
+---
+title: <pm-tab-panel>
+description: Tab panel used by the Privacy Manager Browser extension
+header: <pm-tab-panel>
+component: pm-tab-panel
+css: [pm-components/css/pm-tab-panel.css]
+---
+
+ <pm-tab-panel>
+
+    <pm-tabs>
+      <pm-tab id="main-tab">Main</pm-tab>
+      <pm-tab id="cookie-tab">Cookies</pm-tab>
+      <pm-tab id="network-tab">Network</pm-tab>
+    </pm-tabs>
+
+    <pm-panels>
+      <pm-panel aria-labelledby="main-tab">
+        Main Tab content
+      </pm-panel>
+      <pm-panel aria-labelledby="cookie-tab">
+        Cookies Tab content
+      </pm-panel>
+      <pm-panel aria-labelledby="network-tab">
+        Network Tab content
+      </pm-panel>
+    </pm-panels>
+
+  </pm-tab-panel>

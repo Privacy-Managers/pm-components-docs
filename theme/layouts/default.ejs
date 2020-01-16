@@ -6,6 +6,9 @@
       <script src="/pm-components/js/pm-components.js" defer=""></script>
       <script src="/js/<%= page.component %>.js" defer=""></script>
     <% } %>
+    <% if (page.css) { for (const css of page.css) { %>
+      <link rel="stylesheet" href="<%- css %>">
+    <% }} %>
   </head>
   <body>
     <header>
