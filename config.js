@@ -4,6 +4,10 @@ const templateData =
     title: "CMintS Starter", // See "layouts/_head.ejs"
     navigation: [
       {
+        title: "<pm-components>",
+        link: "/"
+      },
+      {
         title: "<pm-toggle>",
         link: "/pm-toggle"
       },

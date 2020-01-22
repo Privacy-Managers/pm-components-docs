@@ -2,6 +2,7 @@
 title: pm-components
 description: Collection of web components that are being used by the Privacy Manager Chrome extension
 header: pm-components
+component: pm-components
 ---
 
 ## Web components for Privacy Manager
